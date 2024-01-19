@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Felipa&family=Instrument+Serif&display=swap');
+
+:root {
+    --primary-color: #123a53;
+    --secondary-color: #644f40;
+    --accent1-color: #BD9863;
+    --accent2-color: #68695B;
+
+    --heading-font: 'Amatic SC', serif;
+    --paragraph-font: 'Instrument Serif', serif;
+    --callout-font: 'Felipa', serif;
+
+    --nav-background-color: #123a53;
+    --nav-link-color: #FFFFFF;
+    --nav-hover-link-color: #000000;
+    --nav-hover-background-color: #68695B;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+    padding: 1rem;
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+footer {
+    border-top: 1px solid var(--accent2-color);
+}
+
+ul {
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+}
