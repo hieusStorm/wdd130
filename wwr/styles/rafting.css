@@ -22,7 +22,12 @@ body {
     max-width: 960px;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -30,10 +35,18 @@ h1,h2,h3,h4,h5,h6 {
 p {
     font-family: var(--paragraph-font);
 }
+
+a,
+a:visited {
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
+
 /* class selectors */
 .hero {
     position: relative;
 }
+
 .hero img {
     display: block;
     width: 100%;
@@ -53,11 +66,8 @@ p {
     background-color: var(--secondary-color);
     opacity: .95;
 }
+
 .hero article img {
     float: right;
     width: 25%;
-}
-
-.sociallinks a{
-    text-decoration: none;
 }
