@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Felipa&family=Instrument+Serif&display=swap');
+
+:root {
+    --primary-color: #123a53;
+    --secondary-color: #644f40;
+    --accent1-color: #BD9863;
+    --accent2-color: #68695B;
+
+    --heading-font: 'Amatic SC', serif;
+    --paragraph-font: 'Instrument Serif', serif;
+    --callout-font: 'Felipa', serif;
+
+    --nav-background-color: #123a53;
+    --nav-link-color: #FFFFFF;
+    --nav-hover-link-color: #000000;
+    --nav-hover-background-color: #68695B;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 960px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+/* class selectors */
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1, .hero article {
+    position: absolute;
+}
+.hero h1 {
+    color: #FFFFFF;
+    top: 1rem;
+    left: 25rem;
+}
+
+.hero article {
+    top: 40%;
+    background-color: var(--secondary-color);
+    opacity: .95;
+}
+.hero article img {
+    float: right;
+    width: 25%;
+}
+
+.sociallinks a{
+    text-decoration: none;
+}
