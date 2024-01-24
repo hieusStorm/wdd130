@@ -40,16 +40,15 @@ p {
     height: auto;
 }
 
-.hero h1, .hero article {
-    position: absolute;
-}
 .hero h1 {
+    position: absolute;
     color: #FFFFFF;
     top: 1rem;
     left: 25rem;
 }
 
 .hero article {
+    position: absolute;
     top: 40%;
     background-color: var(--secondary-color);
     opacity: .95;
