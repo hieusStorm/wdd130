@@ -39,7 +39,7 @@ p {
 a,
 a:visited {
     text-decoration: none;
-    color: var(--nav-link-color);
+    color: #000000;
 }
 
 /* class selectors */
