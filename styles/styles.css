@@ -27,6 +27,8 @@ h1 {
 }
 
 main {
+    display: grid;
+    align-items: center;
     grid-column: 2 / 3;
 }
 
