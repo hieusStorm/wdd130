@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Felipa&family=Instrument+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Amatic SC', serif;
+    font-size: 1.2em;
+    color: #000;
+}
+
+header {
+    margin: 0 auto;
+    width: 50%;
+}
+
+h1 {
+    color: #2e5db4;
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2%;
+    border: 1px solid #000000;
+    border-radius: 0%;
+    background-color: #ababab;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+legend {
+    padding: .5rem;
+    font-size: 1.3rem;
+    color: #0a0dc5;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    font-size: 1rem;
+    padding: 1.3rem;
+}
+
+input[type="checkbox"] {
+    width: 2rem;
+    height: 2rem;
+    vertical-align: bottom;
+}
+
+button {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: #FFFFFF;
+    background-color: #2e5db4;
+}
+
+footer {
+    margin-top: 1%;
+    text-align: center;
+    border-top: 1px solid #2e5db4;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem;
+}
