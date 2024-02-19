@@ -19,7 +19,7 @@
 body {
     margin: 0 auto;
     text-align: center;
-    max-width: 960px;
+    max-width: 75%;
 }
 
 header {
@@ -29,6 +29,7 @@ header {
 
 header img {
     grid-column-start: 1;
+    width: auto;
 }
 
 nav {
@@ -40,7 +41,7 @@ nav {
     height: -webkit-fill-available;
 }
 
-figure img {
+img {
     width: -webkit-fill-available;
     height: auto;
 }
@@ -62,6 +63,7 @@ p {
 
 a,
 a:visited {
+    background-color: var(--nav-background-color);
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 2%;
@@ -76,7 +78,7 @@ a:hover {
 footer {
     display: grid;
     background-color: var(--primary-color);
-    padding: 0.5rem;
+    padding: 1rem;
     align-items: center;
 }
 
@@ -92,7 +94,8 @@ form {
 }
 
 button {
-    padding: 0.5rem;
+    padding: 1rem;
+    width: -webkit-fill-available;
     border: none;
     border-radius: 5rem;
     background-color: var(--nav-background-color);
@@ -117,6 +120,7 @@ fieldset {
 input, textarea {
     font-size: 1rem;
     padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 input[type="checkbox"] {
@@ -137,9 +141,28 @@ iframe {
     width: -webkit-fill-available;
 }
 
+table {
+    width: -webkit-fill-available;
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color:var(--nav-link-color);
+}
+
+td {
+    border: 1px solid var(--accent1-color);
+    padding: 1rem;
+}
+
+th {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+}
+
 /* class selectors */
 .hero {
     position: relative;
+    color: #FFFFFF;
+    margin-bottom: 2%;
 }
 
 .hero img {
@@ -172,9 +195,15 @@ iframe {
 }
 
 .images {
-    margin: 0 auto;
+    margin: 1rem;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(5, 29%);
+    grid-template-columns: repeat(5, 25%);
+    justify-content: center;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
     justify-content: center;
 }
